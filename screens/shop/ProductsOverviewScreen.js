@@ -28,7 +28,7 @@ const ProductsOverviewScreen = props => {
         );
       console.log(result.data);
       const newArray = result.data.data.items.map((item,index)=>{
-      console.log(item);
+      
           return {
               id:item["product_id"],
               ownerId:'u1',

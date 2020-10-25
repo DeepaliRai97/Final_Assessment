@@ -11,7 +11,7 @@ const rootReducer = combineReducers({
 });
 
 const store = createStore(rootReducer);
-export default function App() {
+ function App() {
 
   return(
     <>
@@ -21,3 +21,5 @@ export default function App() {
     </>
   )
 }
+
+export default App;
